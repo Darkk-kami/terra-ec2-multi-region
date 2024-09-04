@@ -15,16 +15,16 @@ variable "cidr_block" {
 variable "private_subnets" {
   description = "Private subnets"
   default = {
-    "private_subnet_1" = 1
-    "private_subnet_2" = 2
+    "private_subnet_1" = 0
+    "private_subnet_2" = 1
   }
 }
 
 variable "public_subnets" {
   description = "Public Subnets"
   default = {
-    "public_subnet_1" = 1
-    "public_subnet_2" = 2
+    "public_subnet_1" = 0
+    "public_subnet_2" = 1
   }
 }
 
